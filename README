@@ -1,0 +1,48 @@
+# Chess vs AI - Tkinter Python Game
+
+A simple **Chess game built with Python and Tkinter**, where you can play as White against a basic AI that makes random moves. The game uses **python-chess** for chess rules and logic, and **Pillow** for displaying piece images.
+
+---
+
+## Features
+
+- Play as White against an AI opponent.
+- Click-to-select and move pieces.
+- Highlights the selected piece.
+- Pawn promotion automatically handled (promotes to Queen).
+- Simple AI that plays random legal moves.
+- Tkinter GUI with chess board and piece images.
+
+---
+
+## Requirements
+
+- Python 3.10+  
+- [Tkinter](https://docs.python.org/3/library/tkinter.html) (usually comes with Python)  
+- [python-chess](https://pypi.org/project/python-chess/)  
+- [Pillow](https://pypi.org/project/Pillow/)  
+
+---
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone 
+cd <repo-folder>
+
+### Create and activate a virtual environment (recommended):
+
+python3 -m venv venv
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate      # Windows
+
+## Install dependencies:
+pip install python-chess pillow
+
+# Make sure you have an images/ folder in the project directory with the 12 chess pieces named as:
+r,n,b,q,k,p,R,N,B,Q,K,P.png
+
+### Running the Game ###
+python chesser.py
